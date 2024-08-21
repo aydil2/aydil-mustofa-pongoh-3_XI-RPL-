@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel Data Diri</title>
+    <link rel="stylesheet" href="styleproject.css">
+    <style>
+        .details {
+            display: none;
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .details.active {
+            display: block;
+            
+        }
+        .button-detail {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .button-detail:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>DATA DIRI</h1>
+
+    <div class="container">
+        <table>
+            <tr>
+                <th colspan="3">Data Diri Aydil</th>
+            </tr>
+            <tr>
+                <td rowspan="7">
+                    <img src="AYDIL.jpg" width="300" />
+                </td>
+            </tr>
+            <tr>
+                <th>Nama</th>
+                <td>Aydil Mustofa Pongoh</td>
+            </tr>
+            <tr>
+                <th>Tempat, Tanggal Lahir</th>
+                <td>Denpasar, 23 - 01 - 2008</td>
+            </tr>
+            <tr>
+                <th>Alamat</th>
+                <td>Jl. Gatsu Barat No 301, Denpasar</td>
+            </tr>
+            <tr>
+                <th>Umur</th>
+                <td>16</td>
+            </tr>
+            <tr>
+                <th>Hobby</th>
+                <td>Main Mobile Legend/Masak</td>
+            </tr>
+            <tr>
+                <th>No. Telp</th>
+                <td>0881037286898</td>
+            </tr>
+        </table>
+
+        <button class="button-detail" onclick="toggleDetails('details-aydil')">Lihat Detail</button>
+        <div id="details-aydil" class="details">
+            <p><strong>Nama:</strong> Aydil Mustofa Pongoh</p>
+            <p><strong>Tempat, Tanggal Lahir:</strong> Denpasar, 23 - 01 - 2008</p>
+            <p><strong>Alamat:</strong> Jl. Gatsu Barat No 301, Denpasar</p>
+            <p><strong>Umur:</strong> 16</p>
+            <p><strong>Hobby:</strong> Main Mobile Legend/Masak</p>
+            <p><strong>No. Telp:</strong> 0881037286898</p>
+        </div>
+
+        <table>
+            <tr>
+                <th colspan="2">Sosmed Aydil</th>
+            </tr>
+            <tr>
+                <th>Instagram</th>
+                <td><a href="https://www.instagram.com/nvrbbe.dil?igsh=Ym50bHp5MG9tZmto" class="button">nvvrbe.dil</a></td>
+            </tr>
+            <tr>
+                <th>TikTok</th>
+                <td><a href="https://www.tiktok.com/@aydilllp?_t=8or7S5JJMoc&_r=1" class="button">Aydil</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="container">
+        <table>
+            <tr>
+                <th colspan="3">Data Diri Nanda</th>
+            </tr>
+            <tr>
+                <td rowspan="7">
+                    <img src="NANDA.jpg" width="300" height="350" />
+                </td>
+            </tr>
+            <tr>
+                <th>Nama</th>
+                <td>I Putu Nanda Widiastika Putra Pratama</td>
+            </tr>
+            <tr>
+                <th>Tempat, Tanggal Lahir</th>
+                <td>Denpasar, 07 - 02 - 2008</td>
+            </tr>
+            <tr>
+                <th>Alamat</th>
+                <td>Jl. Pantai Cemagi, Mengwi</td>
+            </tr>
+            <tr>
+                <th>Umur</th>
+                <td>16</td>
+            </tr>
+            <tr>
+                <th>Hobby</th>
+                <td>Membaca</td>
+            </tr>
+            <tr>
+                <th>No. Telp</th>
+                <td>081237530422</td>
+            </tr>
+        </table>
+        <button class="button-detail" onclick="toggleDetails('details-nanda')">Lihat Detail</button>
+        <div id="details-nanda" class="details">
+            <p><strong>Nama:</strong> I Putu Nanda Widiastika Putra Pratama</p>
+            <p><strong>Tempat, Tanggal Lahir:</strong> Denpasar, 07 - 02 - 2008</p>
+            <p><strong>Alamat:</strong> Jl. Pantai Cemagi, Mengwi</p>
+            <p><strong>Umur:</strong> 16</p>
+            <p><strong>Hobby:</strong> Membaca</p>
+            <p><strong>No. Telp:</strong> 081237530422</p>
+        </div>
+        <table>
+            <tr>
+                <th colspan="2">Sosmed Nanda</th>
+            </tr>
+            <tr>
+                <th>Instagram</th>
+                <td><a href="https://www.instagram.com/fusa_1/?utm_source=ig_web_button_share_sheet" class="button">fusa_1</a></td>
+            </tr>
+            <tr>
+                <th>TikTok</th>
+                <td>-</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="container">
+        <table>
+            <tr>
+                <th colspan="3">Data Diri Edsel</th>
+            </tr>
+            <tr>
+                <td rowspan="7">
+                    <img src="EDSEL.jpg" width="300" />
+                </td>
+            </tr>
+            <tr>
+                <th>Nama</th>
+                <td>Edsel Jibran Lesmana</td>
+            </tr>
+            <tr>
+                <th>Tempat, Tanggal Lahir</th>
+                <td>Denpasar, 25 - 08 - 2008</td>
+            </tr>
+            <tr>
+                <th>Alamat</th>
+                <td>Jl. Dr Gores No 1A</td>
+            </tr>
+            <tr>
+                <th>Umur</th>
+                <td>16</td>
+            </tr>
+            <tr>
+                <th>Hobby</th>
+                <td>Bulu Tangkis</td>
+            </tr>
+            <tr>
+                <th>No. Telp</th>
+                <td>087784562963</td>
+            </tr>
+        </table>
+        <button class="button-detail" onclick="toggleDetails('details-edsel')">Lihat Detail</button>
+        <div id="details-edsel" class="details">
+            <p><strong>Nama:</strong> Edsel Jibran Lesmana</p>
+            <p><strong>Tempat, Tanggal Lahir:</strong> Denpasar, 25 - 08 - 2008</p>
+            <p><strong>Alamat:</strong> Jl. Dr Gores No 1A</p>
+            <p><strong>Umur:</strong> 16</p>
+            <p><strong>Hobby:</strong> Bulu Tangkis</p>
+            <p><strong>No. Telp:</strong> 087784562963</p>
+        </div>
+        <table>
+            <tr>
+                <th colspan="2">Sosmed Edsel</th>
+            </tr>
+            <tr>
+                <th>Instagram</th>
+                <td><a href="https://www.instagram.com/ardieeeetzy?igsh=MTY1M3dmNm94aDVueA==" class="button">Edsel</a></td>
+            </tr>
+            <tr>
+                <th>TikTok</th>
+                <td><a href="https://www.tiktok.com/@aydilllp?_t=8or7S5JJMoc&_r=1" class="button">Yonkai</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <script>
+        function toggleDetails(id) {
+            var details = document.getElementById(id);
+            if (details.classList.contains('active')) {
+                details.classList.remove('active');
+            } else {
+                details.classList.add('active');
+            }
+        }
+    </script>
+</body>
+</html>
